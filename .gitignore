@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code local settings (machine-specific, not for the repo)
+.claude/settings.local.json
+
+# Logs
+*.log
+
+# Node (only relevant if you ever add a build step / package.json)
+node_modules/
+npm-debug.log*
+
+# Local env / secrets
+.env
+.env.local
+
+# Temp / scratch files
+*.tmp
+*.bak
